@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Man.</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Yesteryear&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body onload="myFunction()">
+
+    <div id="loading">
+        <div class="load">
+            <div class="hat">
+                <img src="images/hat.png" alt="">
+            </div>
+            <div class="spin">
+                <img src="images/spiner.png" alt="">
+            </div>
+            <div class="mustache">
+                <img src="images/mustech.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="head_top">
+            <div class="container">
+                <div class="head_top_inner">
+                    <div class="ht_notes h_t">
+                        <p>WOW offers! 60-80% Off Top Trending Product</p>
+                    </div>
+                    <div class="ht_options h_t">
+                        <div class="opt-language">
+                            <select name="Language">
+                                <option value="EN" name="lng">English</option>
+                                <option value="AR" name="lng">العربية</option>
+                                <option value="DE" name="lng">Deutsch</option>
+                                <option value="FR" name="lng">Français</option>
+                                <option value="IT" name="lng">Italiano</option>
+                                <option value="RU" name="lng">Русский</option>
+                                <option value="ES" name="lng">Español</option>
+                            </select>
+                        </div>
+                        <div class="opt-currency">
+                            <select name="currency" class="opt-curn">
+                                <option value="USD">USD $</option>
+                                <option value="INR">INR ₹</option>
+                                <option value="EUR">Euro €</option>
+                                <option value="AED">AED د.إ</option>
+                            </select>
+                        </div>
+                        <div class="opt-sing">
+                            <a href="#">sign in</a>
+                        </div>
+                    </div>
+                    <ul class="ht_social h_t">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="head_mid">
+            <div class="container">
+                <div class="head_mid_inner h_m">
+                    <h1 class="main_logo">
+                        <a href="#"><img src="images/brandman-logo.jpg" alt="logo"></a>
+                    </h1>
+                    <div class="head_search">
+                        <button class="search_toggle" aria-label="Open search">
+                            Search
+                        </button>
+                        <form class="search_form" action="search-form">
+                            <input type="search" id="search" name="search" placeholder="Search Our Catalog">
+                            <button type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="cart">
+                        <div class="cart_box">cart <i class="fas fa-angle-down"></i></div>
+                        <a class="cart_box_icon" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="head_mid_nav">
+            <div class="container">
+                <div class="main_logo">
+                    <a href="#"><img src="images/brandman-logo.jpg" alt="logo"></a>
+                </div>
+                <div id="cssmenu" class="align-center">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">CLOTHES</a>
+                            <ul>
+                                <li><a href="#">MAN</a>
+                                    <ul>
+                                        <li><a href="#">Jacket</a></li>
+                                        <li><a href="#">Polo T-Shirt</a></li>
+                                        <li><a href="#">Levi's Jeans</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">WOMAN</a>
+                                    <ul>
+                                        <li><a href="#">Waistcoats</a></li>
+                                        <li><a href="#">Jumpsuits</a></li>
+                                        <li><a href="#">Tunics</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">KIDS</a>
+                                    <ul>
+                                        <li><a href="#">Trousers</a></li>
+                                        <li><a href="#">Tops</a></li>
+                                        <li><a href="#">Dungarees</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">ACCESSORIES</a></li>
+                        <li><a href="#">JEWELLERY</a></li>
+                        <li><a href="#">FURNITURE</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="head-bott">
+            <div class="container">
+                <div class="text-line">
+                    <h5><i class="fas fa-bicycle"></i> #FREE EU DELIVERY + RETURN OVER <span>€99.00 COLLECT FROM
+                            STORE</span>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero_banner">
+        <div class="banner_slider owl-carousel owl-theme">
+            <div class="banner banner_a">
+                <img src="images/banner/banner_a.png" alt="banner_a">
+                <div class="banner_text">
+                    <span>Start ur weekend off right !</span>
+                    <p>back in stock with 4 color for you</p>
+                    <div class="code">newprice: <span>€25.00</span></div>
+                    <div class="button b_btn">browse</div>
+                    <div class="button b_btn">shop the look</div>
+                </div>
+            </div>
+            <div class="banner banner_b">
+                <img src="images/banner/banner_b.png" alt="banner_b">
+                <div class="banner_text">
+                    <span>Start ur weekend off right !</span>
+                    <p>huge sale sportwear 75% off</p>
+                    <div class="code">whan use code: <span>Z9QAR69</span></div>
+                    <div class="button b_btn">shop now</div>
+                    <div class="button b_btn">view promotion</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="top_product">
+        <div class="container">
+            <div class="title_heading">
+                <h2>#TRENDING ITEMS</h2>
+            </div>
+            <div class="top_prod owl-carousel owl-theme">
+                <div class="product">
+                    <div class="top_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/backpack-bag.jpg" alt="backpack-bag">
+                        <div class="overlay">
+                            <img src="images/products/backpack-bag-side.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name"><h4>backpack bag</h4></div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="regular_price">$20.90</span>
+                            <span class="new_price">$18.90</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="top_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/black-top-t-shirt.jpg" alt="black-top-t-shirt">
+                        <div class="overlay">
+                            <img src="images/products/black-top-t-shirt.jpg" alt="black-top-t-shirt">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>black-top-t-shirt</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$15.80</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="top_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/doctor-bag.jpg" alt="doctor-bag.jpg">
+                        <div class="overlay">
+                            <img src="images/products/doctor-bag.jpg" alt="doctor-bag.jpg">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>doctor bag</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="regular_price">$30.10</span>
+                            <span class="new_price">$28.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="top_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/gray-tshirt.jpg" alt="gray-tshirt">
+                        <div class="overlay">
+                            <img src="images/products/gray-tshirt.jpg" alt="gray-tshirt">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>gray t-shirt</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$12.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="top_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/laptop-bag2.jpg" alt="laptop-bag2">
+                        <div class="overlay">
+                            <img src="images/products/laptop-bag2.jpg" alt="laptop-bag2">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>laptop bag</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="regular_price">$40.10</span>
+                            <span class="new_price">$37.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="top_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/laptop-hudi.jpg" alt="laptop-hudi">
+                        <div class="overlay">
+                            <img src="images/products/laptop-hudi.jpg" alt="laptop-hudi">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>cool chhapry hudi</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$10.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="top_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/school-bag.jpg" alt="school-bag">
+                        <div class="overlay">
+                            <img src="images/products/school-bag.jpg" alt="school-bag">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>school bag</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$30.60</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="top_head">
+                        <span></span><span>sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/striped-men-jacket.jpg" alt="striped-men-jacket">
+                        <div class="overlay">
+                            <img src="images/products/striped-men-jacket.jpg" alt="striped-men-jacket">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>striped men jacket</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$26.69</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promo_banner">
+        <div class="container">
+            <div class="promo_imgbox">
+                <div class="promo_left">
+                    <div class="promo_left_slider owl-carousel owl-theme">
+                        <div class="promo_left_item">
+                            <img src="images/promo/promo_banner_a.png" alt="">
+                            <div class="promo">                        
+                                <span>Eye your life !</span>
+                                <h3>T-shirt with 4 colors 4 you</h3>
+                                <div class="code">New Price: <span>€26.00</span></div>
+                                <div class="button b_btn">Shop Now</div>                                             
+                            </div>
+                        </div>
+                        <div class="promo_left_item">
+                            <img src="images/promo/promo_banner_b.png" alt="">
+                            <div class="promo">
+                                <span>Tailored to suit you !</span>
+                                <h3>man's smart watche free on suit.</h3>
+                                <div class="code">New Price: <span>€105.00</span></div>
+                                <div class="button b_btn">Shop Now</div>
+                            </div>
+                        </div>
+                        <div class="promo_left_item">
+                            <img src="images/promo/promo_banner_c.png" alt="">
+                            <div class="promo">
+                                <span>Make your life smooth !</span>
+                                <h3>Easy care fit sport shirts</h3>
+                                <div class="code">New Price: <span>€75.00</span></div>
+                                <div class="button b_btn">Shop Now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo_right">
+                    <div class="promo_topimg">
+                        <img src="images/promo/promo_banner_ba.png" alt="">
+                        <div class="promo">                        
+                            <span>Style your breard !</span>
+                            <h3>Tattoo & Baber</h3>
+                            <p>Wanna have a beautyful beard ??? Come to our baber shop.</p>
+                            <div class="button b_btn">book appointment</div>                                             
+                        </div>
+                    </div>
+                    <div class="promo_botimg">
+                        <img src="images/promo/promo_banner_bb.png" alt="">
+                        <div class="promo"> 
+                            <span>Get code !</span>
+                            <h3>Summer clearance</h3>
+                            <div class="code">whan use code: <span>Z9QAR69</span></div>
+                            <div class="button b_btn">Shop Now</div>                                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="special_product">
+        <div class="container">
+            <div class="title_heading">
+                <h2>#SPECIAL TREND PRODUCTS</h2>
+            </div>
+            <div class="special_prod owl-carousel owl-theme">
+                <div class="product">
+                    <div class="special_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/backpack-bag.jpg" alt="backpack-bag">
+                        <div class="overlay">
+                            <img src="images/products/backpack-bag-side.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>backpack bag</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="regular_price">$20.90</span>
+                            <span class="new_price">$18.90</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="special_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/black-top-t-shirt.jpg" alt="black-top-t-shirt">
+                        <div class="overlay">
+                            <img src="images/products/black-top-t-shirt.jpg" alt="black-top-t-shirt">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>black-top-t-shirt</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$15.80</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="special_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/doctor-bag.jpg" alt="doctor-bag.jpg">
+                        <div class="overlay">
+                            <img src="images/products/doctor-bag.jpg" alt="doctor-bag.jpg">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>doctor bag</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="regular_price">$30.10</span>
+                            <span class="new_price">$28.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="special_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/gray-tshirt.jpg" alt="gray-tshirt">
+                        <div class="overlay">
+                            <img src="images/products/gray-tshirt.jpg" alt="gray-tshirt">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>gray t-shirt</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$12.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="special_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/laptop-bag2.jpg" alt="laptop-bag2">
+                        <div class="overlay">
+                            <img src="images/products/laptop-bag2.jpg" alt="laptop-bag2">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>laptop bag</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="regular_price">$40.10</span>
+                            <span class="new_price">$37.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="special_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/laptop-hudi.jpg" alt="laptop-hudi">
+                        <div class="overlay">
+                            <img src="images/products/laptop-hudi.jpg" alt="laptop-hudi">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>cool chhapry hudi</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$10.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="special_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/school-bag.jpg" alt="school-bag">
+                        <div class="overlay">
+                            <img src="images/products/school-bag.jpg" alt="school-bag">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>school bag</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$30.60</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="special_head">
+                        <span></span><span>sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/striped-men-jacket.jpg" alt="striped-men-jacket">
+                        <div class="overlay">
+                            <img src="images/products/striped-men-jacket.jpg" alt="striped-men-jacket">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>striped men jacket</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$26.69</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about_us">
+        <div class="container">
+            <div class="about_content">
+                <div class="title_heading">
+                    <h2>#About Us</h2>
+                </div>
+                <p>Brand Man. dolor sit amet consectetur adipisicing elit. Tempora veniam maiores eos, provident id natus,
+                    sint similique labore, architecto velit animi in accusantium? Ex commodi vitae sint est assumenda quia!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iste reiciendis aspernatur, similique
+                    labore delectus recusandae voluptatibus, nisi, sed blanditiis nihil cupiditate perspiciatis quos
+                    reprehenderit tempore inventore ut perferendis atque.</p>
+                <p>"Matching style and class with luxury and comfort."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="new_product">
+        <div class="container">
+            <div class="title_heading">
+                <h2>#New Arrival Product</h2>
+            </div>
+            <div class="new_prod owl-carousel owl-theme">
+                <div class="product">
+                    <div class="new_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/anchor-bracelet.jpg" alt="anchor-bracelet">
+                        <div class="overlay">
+                            <img src="images/products/anchor-bracelett.jpg" alt="anchor-bracelet">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>anchor bracelet</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="regular_price">$6.90</span>
+                            <span class="new_price">$5.50</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="new_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/automatic-watch.jpg" alt="automatic-watch">
+                        <div class="overlay">
+                            <img src="images/products/automatic-watchs.jpg" alt="automatic-watch">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>automatic watch</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$12.80</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="new_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/black-balt.jpg" alt="black-balt">
+                        <div class="overlay">
+                            <img src="images/products/black-baltt.jpg" alt="black-balt">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>black balt</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="regular_price">$18.10</span>
+                            <span class="new_price">$17.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="new_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/men-hat.jpg" alt="men-hat">
+                        <div class="overlay">
+                            <img src="images/products/men-hat.jpg" alt="men-hat">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>men hat</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$12.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="new_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/anchor-bracelett.jpg" alt="anchor-bracelett">
+                        <div class="overlay">
+                            <img src="images/products/anchor-bracelet.jpg" alt="anchor-bracelett">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>anchor bracelett</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="regular_price">$6.10</span>
+                            <span class="new_price">$5.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="new_head">
+                        <span>New</span><span>Sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/automatic-watchs.jpg" alt="automatic-watch">
+                        <div class="overlay">
+                            <img src="images/products/automatic-watch.jpg" alt="automatic-watch">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>automatic watch</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$18.40</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="new_head">
+                        <span>New</span><span></span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/black-baltt.jpg" alt="black-balt">
+                        <div class="overlay">
+                            <img src="images/products/black-balt.jpg" alt="black-balt">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>black balt</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$30.60</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="new_head">
+                        <span>new</span><span>sale</span>
+                    </div>
+                    <div class="prod_img">
+                        <img src="images/products/men-hat.jpg" alt="men-hat">
+                        <div class="overlay">
+                            <img src="images/products/men-hat.jpg" alt="men-hat">
+                        </div>
+                    </div>
+                    <div class="prod_bot">
+                        <div class="pro_name">
+                            <h4>men hat</h4>
+                        </div>
+                        <div class="rates">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span class="new_price">$26.69</span>
+                        </div>
+                    </div>
+                    <div class="prod_bot_hover">
+                        <div class="quantity">
+                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i
+                                    class="fas fa-minus"></i></div>
+                            <input type="number" name="" id="number" value="1" min="0">
+                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i
+                                    class="fas fa-plus"></i></div>
+                        </div>
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <div class="title_heading">
+                <h2>#testimonial</h2>
+            </div>
+            <div class="our_testi owl-carousel owl-theme">
+                <div class="testimo">
+                    <div class="test_top">                    
+                        <div class="test_img">
+                            <img src="images/testimonial/jeck.png" alt="">
+                        </div>
+                        <div class="test_con">
+                            <p>Worem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium odio iure nesciunt ipsum beatae, voluptas quasi et sunt esse eligendi. Quibusdam odio, perferendis facilis iusto ratione eveniet id beatae illum. voluptas quasi et sunt esse eligendi. Quibusdam odio, perferendis facilis iusto ratione eveniet id beatae illum.</p>
+                            <p>Officia veniam dolor sit amet consectetur adipisicing elit. Magni quod neque perferendis voluptates quo, maxime excepturi nobis quasi aliquid itaque architecto vitae asperiores molestiae nam!</p>
+                            <p>Dolor sit amet. similique corrupti doloremque veritatis eum possimus perferendis minima minus quas officia veniam molestias aliquam.</p>
+                        </div>
+                    </div>
+                    <div class="test_name">
+                        <h4>Darrel Austin</h4>
+                        <span>Best Man<man></man></span>
+                    </div>
+                </div>  
+                <div class="testimo">
+                    <div class="test_top">
+                        <div class="test_img">
+                            <img src="images/testimonial/john.png" alt="">
+                        </div>
+                        <div class="test_con">
+                            <p>Dolor sit amet. similique corrupti doloremque veritatis eum possimus perferendis minima minus quas officia veniam
+                                molestias aliquam.</p>
+                            <p>Worem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium odio iure nesciunt ipsum beatae, voluptas quasi
+                                et sunt esse eligendi. Quibusdam odio, perferendis facilis iusto ratione eveniet id beatae illum. voluptas quasi et
+                                sunt esse eligendi. Quibusdam odio, perferendis facilis iusto ratione eveniet id beatae illum.</p>
+                            <p>Officia veniam dolor sit amet consectetur adipisicing elit. Magni quod neque perferendis voluptates quo, maxime
+                            excepturi nobis quasi aliquid itaque architecto vitae asperiores molestiae nam!</p>
+                        </div>
+                    </div>
+                    <div class="test_name">
+                        <h4>john Austin</h4>
+                        <span>Good Man</span>
+                    </div>
+                </div>
+                <div class="testimo">
+                    <div class="test_top">
+                        <div class="test_img">
+                            <img src="images/testimonial/jezz.png" alt="">
+                        </div>
+                        <div class="test_con">
+                            <p>Architecto dolores officiis lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro iure tenetur voluptate ad alias laboriosam. Aliquid laudantium id, dolorem sunt odit eveniet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reprehenderit possimus dignissimos earum nam nobis odio vero.</p>
+                            <p>Lorem ipsum dolor, aut ex cum iure modi veritatis ad! provident impedit deleniti magnam corrupti, et adipisci odio.
+                                quidem magni fugit architecto dolores officiis deleniti nesciunt vel corporis, atque, doloremque eos.</p>
+                            <p>provident impedit deleniti magnam, et adipisci odio. quidem magni fugit architecto dolores officiis deleniti
+                                nesciunt vel corporis, atque, doloremque eos.</p>
+                        </div>
+                    </div>
+                    <div class="test_name">
+                        <h4>jezz Austin</h4>
+                        <span>Top Man</span>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <section class="customer_services">
+        <div class="container">
+            <div class="cust_serv">
+                <div class="services">
+                    <div class="serv_box">
+                        <div class="icon_left">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 419.519 419.519" style="enable-background:new 0 0 419.519 419.519;" xml:space="preserve">
+                                <g>
+                                    <path
+                                        d="M105.839,154.031c1.249-1.592,1.602-3.641,1.081-6.263c-0.514-2.59-1.655-4.429-3.488-5.622
+                            		c-1.818-1.183-4.301-1.471-7.367-0.862l-9.972,1.979l3.198,16.11l9.76-1.938C102.288,156.794,104.571,155.648,105.839,154.031z" />
+                                    <path
+                                        d="M386.784,190.429c-1.622-0.34-3.154-0.662-4.52-1.017c-15.092-3.925-22.58-6.263-27.827-16.394l-19.694-39.873
+                            		c-6.286-12.135-22.518-22.008-36.183-22.008h-35.354V83.957c0-8.11-6.598-14.708-14.71-14.708L13.829,69.494
+                            		C5.945,69.494,0,75.766,0,84.083v203.465c0,8.11,6.598,14.708,14.708,14.708h25.659c3.832,27.098,27.169,48.013,55.311,48.013
+                            		c28.144,0,51.483-20.914,55.315-48.013h93.496c0.616,0,1.246-0.034,1.879-0.082c3.796,27.138,27.151,48.095,55.322,48.095
+                            		c28.144,0,51.483-20.914,55.315-48.013h36.746c14.208,0,25.766-11.558,25.766-25.765v-44.204
+                            		C419.519,197.297,399.819,193.164,386.784,190.429z M41.011,179.946l5.119,25.786l-14.407,2.86l-12.708-64.018l44.753-8.884
+                            		l2.293,11.551l-30.346,6.024l3.003,15.129l25.999-5.161l2.292,11.552L41.011,179.946z M95.679,315.104
+                            		c-11.415,0-20.701-9.287-20.701-20.702c0-11.415,9.286-20.702,20.701-20.702c11.419,0,20.709,9.287,20.709,20.702
+                            		C116.388,305.817,107.098,315.104,95.679,315.104z M119.435,191.179l-0.311-0.161c-1.538-0.798-2.749-2.366-3.599-4.661
+                            		c-0.779-2.104-1.37-4.157-1.756-6.104l-0.872-4.39c-0.559-2.816-1.754-4.864-3.552-6.089c-1.797-1.223-4.112-1.559-6.893-1.007
+                            		l-10.867,2.157l4.924,24.805l-14.408,2.86l-12.708-64.018l24.38-4.84c7.274-1.444,13.404-0.892,18.221,1.638
+                            		c4.892,2.569,7.981,6.94,9.183,12.991c0.676,3.407,0.357,6.564-0.947,9.383c-1.008,2.177-2.584,4.182-4.698,5.983
+                            		c2.994,0.626,5.419,1.899,7.23,3.797c2.23,2.341,3.753,5.501,4.527,9.394l0.905,4.561c0.327,1.648,0.901,3.351,1.707,5.064
+                            		c0.745,1.585,1.686,2.681,2.797,3.258l0.427,0.221l0.466,2.347L119.435,191.179z M139.81,187.135l-12.708-64.018l44.37-8.808
+                            		l2.293,11.551l-29.962,5.948l2.707,13.638l25.701-5.102l2.292,11.552l-25.7,5.102l3.122,15.726l30.048-5.965l2.293,11.552
+                            		L139.81,187.135z M189.933,177.185l-12.708-64.018l44.37-8.808l2.293,11.551l-29.962,5.948l2.708,13.637l25.7-5.102l2.292,11.552
+                            		l-25.7,5.102l3.122,15.726l30.047-5.965l2.293,11.552L189.933,177.185z M301.691,315.104c-11.415,0-20.701-9.287-20.701-20.702
+                            		c0-11.415,9.286-20.702,20.701-20.702c11.419,0,20.709,9.287,20.709,20.702C322.4,305.817,313.11,315.104,301.691,315.104z
+                            		 M263.206,187.26v-54.948h27.085c10.395,0,23.217,7.8,27.979,16.988l17.525,35.482c0.452,0.873,0.924,1.698,1.419,2.478H263.206z" />
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="servi_con">
+                            <h3>Eu Free Delivery</h3>
+                            <p>Free Delivery On All Order</p>
+                        </div>
+                    </div>
+                    <div class="serv_box">
+                        <div class="icon_left">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 424.98 424.98"
+                                style="enable-background:new 0 0 424.98 424.98;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <path d="M241.395,282.304c-1.587-1.738-3.595-3.038-5.67-4.121c-4.518-2.356-9.459-3.785-14.365-5.075v38.016
+                            				c7.963-0.9,17.105-3.79,21.286-11.224l0,0c1.996-3.551,2.393-7.914,1.58-11.867C243.785,285.891,242.874,283.925,241.395,282.304
+                            				z" />
+                                        </g>
+                                        <g>
+                                            <path
+                                                d="M242.604,299.973c0.016-0.027,0.025-0.044,0.042-0.073l0,0C242.632,299.924,242.618,299.948,242.604,299.973z" />
+                                        </g>
+                                        <g>
+                                            <path d="M184.009,221.532c-1.369,1.999-2.228,4.27-2.465,6.684c-0.237,2.419-0.104,5.11,0.815,7.387
+                            				c0.875,2.17,2.708,3.772,4.6,5.062c2.123,1.444,4.458,2.572,6.836,3.528c1.995,0.803,4.239,1.571,6.658,2.313v-34.4
+                            				C194.342,213.41,187.665,216.194,184.009,221.532z" />
+                                        </g>
+                                        <g>
+                                            <path
+                                                d="M242.804,299.619c-0.05,0.089-0.104,0.182-0.157,0.28l0,0C242.709,299.785,242.758,299.701,242.804,299.619z" />
+                                        </g>
+                                        <g>
+                                            <path d="M243.004,299.263C243.017,299.239,243.019,299.237,243.004,299.263L243.004,299.263z" />
+                                        </g>
+                                        <g>
+                                            <path d="M234.753,92.469c32.329-27.158,53.931-88.341,40.637-91.017c-17.664-3.557-56.022,12.04-74.562,14.788
+                            				c-26.296,3.175-54.936-28.515-71.012-10.851c-13.071,14.362,9.371,66.592,44.482,89.346
+                            				C69.546,146.219-77.69,404.673,179.171,423.426C534.582,449.375,356.615,142.639,234.753,92.469z M265.276,296.298
+                            				c-1.093,10.076-6.433,19.188-14.415,25.374c-8.428,6.532-18.999,9.57-29.502,10.421v11.133c0,2.979-1.301,5.86-3.531,7.832
+                            				c-3.065,2.712-7.569,3.381-11.289,1.667c-3.673-1.69-6.086-5.457-6.086-9.499v-12.168c-1.801-0.342-3.589-0.749-5.356-1.234
+                            				c-9.816-2.697-18.921-7.954-25.572-15.732c-3.313-3.877-6.014-8.276-7.882-13.025c-0.488-1.241-0.923-2.505-1.304-3.783
+                            				c-0.345-1.157-0.701-2.333-0.824-3.539c-0.207-2.023,0.194-4.087,1.137-5.889c1.938-3.707,6.022-5.946,10.192-5.574
+                            				c4.104,0.364,7.701,3.212,8.993,7.124c0.398,1.205,0.668,2.44,1.115,3.632c0.443,1.184,0.978,2.335,1.607,3.431
+                            				c1.242,2.158,2.798,4.148,4.59,5.875c3.694,3.559,8.399,5.872,13.304,7.248v-41.362c-9.591-2.483-19.491-5.69-27.411-11.848
+                            				c-3.849-2.994-7.115-6.714-9.254-11.117c-2.257-4.647-3.192-9.824-3.23-14.966c-0.039-5.221,0.953-10.396,3.131-15.153
+                            				c2.04-4.454,4.977-8.453,8.578-11.768c7.7-7.087,17.928-11.04,28.187-12.492v-0.91v-10.647c0-2.978,1.301-5.86,3.531-7.832
+                            				c3.066-2.711,7.568-3.381,11.289-1.667c3.672,1.691,6.086,5.457,6.086,9.499v10.647v0.847c1.367,0.172,2.73,0.378,4.086,0.624
+                            				c10.074,1.823,19.927,5.983,27.294,13.246c3.49,3.44,6.347,7.539,8.356,12.009c0.561,1.247,1.052,2.523,1.477,3.824
+                            				c0.396,1.213,0.794,2.462,0.983,3.728c0.302,2.021-0.006,4.109-0.871,5.958c-1.772,3.788-5.746,6.2-9.927,6.021
+                            				c-4.108-0.179-7.83-2.854-9.301-6.694c-0.438-1.142-0.657-2.351-1.104-3.49c-0.451-1.153-1.035-2.253-1.708-3.292
+                            				c-1.308-2.02-3.003-3.752-4.938-5.179c-4.19-3.094-9.272-4.706-14.35-5.607v39.582c6.035,1.445,12.075,3.021,17.857,5.301
+                            				c8.739,3.446,17.02,8.73,21.79,17.062c-0.74-1.298-1.46-2.563,0.025,0.043c1.458,2.56,0.762,1.34,0.03,0.057
+                            				C264.854,280.704,266.101,288.701,265.276,296.298z" />
+                                        </g>
+                                        <g>
+                                            <path
+                                                d="M242.493,300.169c-0.061,0.109-0.114,0.205-0.156,0.278C242.373,300.384,242.427,300.289,242.493,300.169z" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="servi_con">
+                            <h3>Money Guarantee</h3>
+                            <p>Back Guarantee Under 7 Days</p>
+                        </div>
+                    </div>
+                    <div class="serv_box">
+                        <div class="icon_left">                            
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 485.494 485.494" style="enable-background:new 0 0 485.494 485.494;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <path d="M267.284,198.106h11.001V54.962C278.285,24.72,253.5,0,223.279,0H62.965
+                            				C32.723,0,8.003,24.72,8.003,54.962v160.292c0,30.264,24.72,54.984,54.962,54.984h127.591
+                            				c1.23-18.637,8.801-36.088,22.239-49.483C227.334,206.13,246.705,198.106,267.284,198.106z M53.862,160.896v-51.576h101.879
+                            				V73.902l76.102,61.218l-76.123,61.218v-35.441H53.862z" />
+                                            <path d="M422.507,215.233H262.193c-30.221,0-54.962,24.72-54.962,54.984v160.314
+                            				c0,30.199,24.72,54.962,54.962,54.962h160.314c30.199,0,54.984-24.742,54.984-54.962V270.217
+                            				C477.469,239.975,452.728,215.233,422.507,215.233z M431.61,376.173H329.731v35.419l-76.123-61.196l76.123-61.196v35.419H431.61
+                            				V376.173z" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="servi_con">
+                            <h3>Return Delivery</h3>
+                            <p>Free Return Delivery product</p>
+                        </div>
+                    </div>
+                    <div class="serv_box">
+                        <div class="icon_left">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 611.994 611.994" style="enable-background:new 0 0 611.994 611.994;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M254.229,180.732c-9.465-13.319-27.982-16.487-41.34-6.993c-13.349,9.474-16.487,27.992-7.003,41.35l56.503,79.552
+                            			c-0.618,2.933-0.971,5.983-0.971,9.111c0,24.226,19.616,43.861,43.831,43.861c12.75,0,24.127-5.521,32.14-14.201h63.565
+                            			c16.379,0,29.648-13.28,29.648-29.65c0-16.369-13.27-29.649-29.648-29.649H337.38c-6.807-7.375-16.065-12.299-26.511-13.652
+                            			L254.229,180.732z" />
+                                        <path d="M514.216,209.282c7.797,16.909,13.564,34.926,17.026,53.767c1.108,6.062,6.649,10.229,12.789,9.671l55.238-5.081
+                            			c3.295-0.294,6.307-1.952,8.327-4.57c2.03-2.629,2.854-5.963,2.314-9.229c-5.316-32.022-15.585-62.339-30.022-90.193
+                            			c-1.628-3.168-4.59-5.424-8.071-6.179c-3.481-0.735-7.11,0.098-9.906,2.315l-44.302,35.19
+                            			C513.343,198.396,511.921,204.3,514.216,209.282z" />
+                                        <path d="M472.974,474.026c-4.512-3.09-10.533-2.707-14.623,0.922c-35.642,31.64-81.209,52.314-131.416,56.66V504.97
+                            			c0-10.926-8.847-19.763-19.763-19.763s-19.772,8.847-19.772,19.763v26.619c-110.005-9.494-197.834-97.314-207.328-207.328H106.7
+                            			c10.916,0,19.763-8.837,19.763-19.764c0-10.926-8.847-19.763-19.763-19.763H79.993c8.925-103.345,87.045-187.025,187.683-204.67
+                            			c5.688-1,9.847-5.924,9.847-11.701v-56.15c0-3.433-1.491-6.719-4.1-8.975c-2.599-2.255-6.052-3.285-9.465-2.795
+                            			C114.771,21.433,0,149.542,0,304.497C0,474.144,137.526,611.67,307.172,611.67c83.338,0,158.721-33.377,214.037-87.28
+                            			c2.55-2.491,3.854-5.983,3.55-9.533c-0.313-3.551-2.177-6.797-5.119-8.808L472.974,474.026z" />
+                                        <path
+                                            d="M346.668,80.044c7.769,1.354,15.398,3.089,22.862,5.208c5.718,1.618,11.711-1.216,14.113-6.64l22.539-50.824
+                            			c1.373-3.089,1.354-6.62-0.04-9.71c-1.383-3.07-4.021-5.443-7.247-6.473c-15.663-4.963-31.847-8.768-48.48-11.161
+                            			c-3.413-0.48-6.886,0.54-9.484,2.795c-2.608,2.256-4.1,5.542-4.1,8.994v56.081C336.821,74.121,340.97,79.054,346.668,80.044z" />
+                                        <path d="M469.031,144.266c4.267,4.345,11.103,4.747,15.869,0.971l43.527-34.592c2.618-2.07,4.236-5.159,4.472-8.494
+                            			c0.235-3.345-0.951-6.601-3.256-9.033c-15.84-16.644-33.523-31.483-52.737-44.243c-2.912-1.932-6.541-2.491-9.915-1.51
+                            			c-3.364,0.98-6.13,3.394-7.543,6.601l-22.754,51.295c-2.266,5.139-0.667,11.161,3.874,14.437
+                            			C450.729,127.092,460.233,135.331,469.031,144.266z" />
+                                        <path d="M608.616,330.782c-2.511-2.569-6.032-3.884-9.602-3.55l-56.444,5.188c-5.385,0.481-9.739,4.542-10.642,9.867
+                            			c-4.228,25.196-12.603,48.941-24.392,70.597c-2.913,5.346-1.324,12.044,3.707,15.486l45.812,31.444
+                            			c2.746,1.893,6.159,2.55,9.405,1.795c3.247-0.755,6.022-2.835,7.67-5.728c19.782-34.809,32.925-73.824,37.78-115.399
+                            			C612.334,336.902,611.117,333.353,608.616,330.782z" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="servi_con">
+                            <h3>Online Support 24/7</h3>
+                            <p>We're Always Here!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section class="new_offer" >
+        <div class="container">
+            <div class="offer">
+                <img src="images/sale.png" alt="sale">
+                <div class="promo">
+                    <span>Start ur december offers rights !</span>
+                    <h3>Look forward on december Upcoming sale 40% to 60% off</h3>
+                    <div class="code">Start Form <span>Dec 22</span> To <span>Dec 28</span></div>
+                    <div class="button b_btn">wishlist Now</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="instafeed">
+        <div class="container">
+            <div class="title_heading">
+                <h2>#Turan insta Gallery</h2>
+            </div>
+            <div class="instagram">                
+            </div>
+        </div>
+    </section>
+
+    <section class="book_barber">
+        <div class="container">
+            <div class="title_heading">
+                <h2>#barber shop appointment</h2>
+            </div> 
+            <div class="book_form">
+                <form action="form">
+                    <div class="field half">
+                        <input type="text" name="name" id="name" placeholder="Full Neme *">
+                    </div>
+                    <div class="field half">
+                        <input type="email" name="email" id="email" placeholder="Email *">
+                    </div>
+                    <div class="field half">
+                        <input type="tel" name="phone" id="phone" placeholder="Number *" maxlength="10">
+                    </div>
+                    <div class="field half">
+                        <select name="time" id="time">
+                            <option value="preferred Time">Preferred Time</option>
+                            <option value="morning">Morning</option>
+                            <option value="afternoon">Afternoon</option>
+                            <option value="eveing">Eveing</option>
+                            <option value="night">Night</option>
+                        </select>
+                    </div>
+                    <div class="field half">
+                        <input type="date" name="date" id="date" placeholder="Preferred Date">
+                    </div>
+                    <div class="field half">
+                        <span class="radiofield">
+                            <input type="radio" name="customer" id="New-customer" value="New-customer">
+                            <label for="New-customer">New Customer</label>
+                        </span>
+                        <span class="radiofield">
+                            <input type="radio" name="customer" id="old-customer" value="old-customer" checked>
+                            <label for="old-customer">Returning Customer</label>
+                        </span>
+                    </div>
+                    <div class="field">
+                        <textarea name="comment" id="comment" rows="2" placeholder="Comment *"></textarea>
+                    </div>
+                    <div class="field submit">
+                        <div class="button btn-submit">Submit</div>
+                    </div>
+                </form>
+            </div>           
+        </div>
+    </section>
+
+    <section class="blogs">
+        <div class="container">
+            <div class="title_heading">
+                <h2>#From Our Blog</h2>
+            </div>
+            <div class="blog_inner">
+                <div class="blog">
+                    <div class="blog_img">
+                        <img src="images/blog/blog_a.jpg" alt="Blog A">
+                    </div>
+                    <div class="blog_con">
+                        <div class="date">01-10-2020</div>
+                        <h4>This is first Post For Template</h4>
+                    </div>
+                    <div class="user">
+                        <div class="imgnam">
+                            <img src="images/user.png" alt="">
+                            <span>dom dic</span>
+                        </div>
+                        <div class="comnnet">
+                            <i class="fas fa-comment-dots"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog_img">
+                        <img src="images/blog/blog_b.jpg" alt="Blog B">
+                    </div>
+                    <div class="blog_con">
+                        <div class="date">01-10-2020</div>
+                        <h4>This is Secound Post For Template</h4>
+                    </div>
+                    <div class="user">
+                        <div class="imgnam">
+                            <img src="images/user.png" alt="">
+                            <span>jack joi</span>
+                        </div>
+                        <div class="comnnet">
+                            <i class="fas fa-comment-dots"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog_img">
+                        <img src="images/blog/blog_c.jpg" alt="Blog C">
+                    </div>
+                    <div class="blog_con">
+                        <div class="date">01-10-2020</div>
+                        <h4>This is third Post For Template</h4>
+                    </div>
+                    <div class="user">
+                        <div class="imgnam">
+                            <img src="images/user.png" alt="">
+                            <span>pitt bull</span>
+                        </div>
+                        <div class="comnnet">
+                            <i class="fas fa-comment-dots"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partner">
+        <div class="container">
+            <div class="part_inner owl-carousel owl-theme">
+                <div class="box">
+                    <img src="images/logos/logo-a.png" alt="">                    
+                </div>
+                <div class="box">
+                    <img src="images/logos/logo-b.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="images/logos/logo-c.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="images/logos/logo-d.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="images/logos/logo-e.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="images/logos/logo-f.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news_letter">
+        <div class="container">
+            <div class="title_heading">
+                <h2>#Join Our Newsletter Now!</h2>
+            </div>
+            <div class="newsletter">
+                <p>Subscribe to get more special deals, events & promotions</p>
+                <form action="form">
+                    <input type="email" name="email" id="email" placeholder="Your Email Address">
+                    <input class="button" type="button" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="back_top">
+        <div id="topbox" class="button"><img src="images/arrowsbacktop.svg" alt=""></div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="foot">
+                <div class="foot_box logo">
+                    <img src="images/brandman-logo.jpg" alt="foot logo">
+                    <div class="foot_con">
+                        <p>We are a global housewares product design company. We bring thought and creativity to everyday items through original
+                        design.</p>
+                    </div>
+                    <ul class="foot_social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>                    
+                </div>
+                <div class="foot_box">
+                    <h5>YOUR ACCOUNT</h5>
+                    <ul>
+                        <li><a href="#">Personal info</a></li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Credit slips</a></li>
+                        <li><a href="#">Addresses</a></li>
+                    </ul>
+                </div>
+                <div class="foot_box">
+                    <h5>CATEGORY</h5>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Beauty</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </div>
+                <div class="foot_box contact">
+                    <h5>STORE INFORMATION</h5>
+                    <div class="address">                        
+                        <p>15-1795 Henderson Highway Winnipeg, Manitoba, R2G 1P3, Canada</p>
+                    </div>
+                    <div class="phone">
+                        <p><span>Call us:</span><a href="tel:0123456789">0123456789</a></p>
+                    </div>
+                    <div class="email">
+                        <p><span>Email us:</span><a href="mailto:demo@demo.com">demo@demo.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="foot_bot">
+                <div class="copyright">
+                    <p>© 2020 - Ecommerce Website For Demo By <a href="https://github.com/parthgodhani-dev" target="_blank">Parh Godhani</a></p>
+                </div>
+                <ul class="payment">
+                    <li><img src="images/pay/pay-a.jpg" alt=""></li>
+                    <li><img src="images/pay/pay-b.jpg" alt=""></li>
+                    <li><img src="images/pay/pay-c.jpg" alt=""></li>              
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer links -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/general.js"></script>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.instagramFeed/1.3.2/jquery.instagramFeed.min.js"></script>          
+    </footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {margin: 0;	padding: 0;	border: 0; font-family: 'Roboto', sans-serif; font-size: 100%;font-weight: normal;vertical-align: top;background: transparent;}
+article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+
+html {box-sizing: border-box;scroll-behavior: smooth;}
+
+$primary: #000000;
+$secondary: #111111;
+$tertiary : #333333;
+$products : #070707;
+$font: #EEEEEE;
+$fontgrey: #7a7a7a;
+$hover: #1ea69a;
+$white: #ffffff;
+$lightgray: #c7c7c7;
+
+/* width */
+html::-webkit-scrollbar{width: 7px;}
+/* Track */
+html::-webkit-scrollbar-track{background-color: $secondary;}
+/* Handle */
+html::-webkit-scrollbar-thumb{background: $hover;}
+html{scrollbar-color: $hover $secondary;scrollbar-width: thin;}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+img{max-width: 100%;height: auto;}
+
+ul {list-style: none;}
+
+a{margin: 0; padding: 0; font-size: 100%; text-decoration: none; vertical-align: baseline; background: transparent;}
+a:focus, a:hover{font-size: 100%; text-decoration: none; vertical-align: baseline; background: transparent;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid $lightgray; margin: 0; padding: 0;}
+
+input, select {vertical-align: middle;} 
+
+.button,.button:focus,.button:active{ 
+    display: inline-block; 
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600; 
+    font-size: 12px; 
+    background: transparent; 
+    color: $white; 
+    line-height: 1; 
+    border: 2px solid $tertiary; 
+    border-radius: 5px; 
+    letter-spacing: .5; 
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 20px; 
+    transition: all 0.3s ease; 
+    -webkit-transition:all 0.3s ease; 
+    -moz-transition:all 0.3s ease; 
+    -ms-transition:all 0.3s ease; 
+    -o-transition:all 0.3s ease;
+}
+
+.button:hover,.button:focus{
+    background: $primary; 
+    color: $white; 
+    outline: none;
+    transition: all 0.3s ease; 
+    -webkit-transition:all 0.3s ease; 
+    -moz-transition:all 0.3s ease; 
+    -ms-transition:all 0.3s ease; 
+    -o-transition:all 0.3s ease;
+}
+
+input,label,textarea,select,input,option,button{outline: none;}
+
+/* let's clear some floats */
+.cf:before, .cf:after {display: block;height: 0;overflow: hidden;}
+.cf:after {clear: both;}
+
+
+h2{font-size: 28px;font-weight: 600;line-height: 1; color: $font;display: block;}
+h3{font-size: 20px;font-weight: 600;line-height: 1; color: $font;display: block;}
+h4{font-size: 18px;font-weight: 600;line-height: 1; color: $font;display: block;}
+h5{font-size: 16px;font-weight: 600;line-height: 1; color: $font;display: block;}
+
+.container{width: 100%;max-width: 1220px;padding: 0 15px;margin: 0 auto;}
+p{color: $font;}
+
+// -moz-appearance:none;-webkit-appearance:none;appearance:none;
