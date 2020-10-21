@@ -590,7 +590,7 @@ body{font-family: 'Open Sans', sans-serif;background-color: $primary;}
     .blog_inner{display: flex; align-items: center;justify-content: space-between; width: 100%;padding-top: 20px;
         .blog{display: block;width: 33.33%;background-color: $secondary;margin: 0 15px;
             .blog_img{display: block;width: 100%;margin-bottom: 10px;
-                img{max-width: 100%;height: auto;}
+                img{width: 100%;height: auto;}
             }
             .blog_con{display: block;width: 100%;text-align: left;border-bottom: 1px solid $tertiary;padding: 10px 15px;
                 .date{font-size: 12px;font-weight: 300;line-height: 1;margin-bottom: 5px;color: $tertiary;}

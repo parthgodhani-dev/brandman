@@ -1671,7 +1671,7 @@ body {
 }
 
 .promo_banner .promo_imgbox .promo_left .promo_left_slider .promo_left_item img {
-  width: auto;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -2982,7 +2982,7 @@ body {
 }
 
 .blogs .blog_inner .blog .blog_img img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 

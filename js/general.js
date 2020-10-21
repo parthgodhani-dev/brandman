@@ -325,14 +325,15 @@ $(document).ready(function () {
         responsive:{
           0:{
               items:1,
-              autoplaySpeed: 1000
+              autoplay:true
           },
           479:{            
               items:2,
-              autoplaySpeed: 1000
+              autoplay:true
           },
           768:{
-              items:3
+              items:3,
+              autoplay:true
           },
           991:{
               items:5
