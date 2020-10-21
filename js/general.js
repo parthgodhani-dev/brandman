@@ -324,10 +324,12 @@ $(document).ready(function () {
         navText: ['',''],
         responsive:{
           0:{
-              items:1
+              items:1,
+              autoplaySpeed: 1000
           },
           479:{            
-              items:2
+              items:2,
+              autoplaySpeed: 1000
           },
           768:{
               items:3

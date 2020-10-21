@@ -266,7 +266,7 @@ body{font-family: 'Open Sans', sans-serif;background-color: $primary;}
         .promo_left{width: 50%;
             .promo_left_slider{
                 .promo_left_item{position: relative;float: right;
-                    img{width: auto; max-width: 100%;height: auto;}
+                    img{width: 100%;max-width: 100%;height: auto;}
                     .promo{display: block;position: absolute;top:50%;left: 50%;transform: translate(-100%, -90%);max-width: 260px;
                         span{display: inline-block;font-size: 28px;line-height: 1;font-family: 'Yesteryear', cursive;color: $fontgrey;margin-bottom: 10px;}
                         h3{display: block;font-size: 36px;font-weight: 600;line-height: 1; color: $font;letter-spacing: 1px;text-transform: uppercase;}
