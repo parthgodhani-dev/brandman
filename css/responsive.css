@@ -6,6 +6,10 @@
     .promo_banner .promo_imgbox .promo_right .promo_topimg .promo, .promo_banner .promo_imgbox .promo_right .promo_botimg .promo{transform: translate(-90%, -50%);}
     .customer_services .cust_serv .services .serv_box .icon_left{height: auto;}
     #footer .foot .foot_box{padding: 0 15px 0 40px;}
+
+    /* contact page */
+    .contact-section .contact_left{width: 70%;}
+    .contact-section .contact_right{width: 30%;}
 }   
 @media only screen and (max-width: 991px)  {
     h2{font-size: 26px;}
@@ -72,6 +76,10 @@
     #footer .foot{flex-wrap: wrap;}
     #footer .foot .foot_box{padding: 0 15px 0 90px;}
 
+    /* contact page */
+    .contact-section .contact_left .page_title h3{font-size: 90px;}
+    .contact-section .contact_left .contact_form{max-width: 70%;margin: 20px auto 0;}
+    .contact-section .contact_right .cont_right_in .cont_box{padding: 10px 0;}
 }
 @media only screen and (max-width: 767px)  {
     .title_heading h2{font-size: 22px;}
@@ -152,7 +160,12 @@
     #footer .foot_bot .copyright p{font-size: 12px;}
     #footer .foot{padding: 20px 0 20px 0;}
 
-
+    /* contact page */
+    .contact-section .contact_left{width: 100%;border-right: 0;}
+    .contact-section .contact_left .page_title h3{font-size: 80px;}
+    .contact-section .contact_right{width: 100%;text-align: center;padding-left: 0;margin-top: 20px;}
+    .contact-section .contact_right .cont_right_in .cont_box .time p, .contact-section .contact_right .cont_right_in .cont_box .address_in p, .contact-section .contact_right .cont_right_in .cont_box.support .phone span, .contact-section .contact_right .cont_right_in .cont_box.support .email span, .contact-section .contact_right .cont_right_in .cont_box.support .phone a, .contact-section .contact_right .cont_right_in .cont_box.support .email a{font-size: 14px;}
+    .contact-section .contact_bottem{padding: 20px 0;}
 }
 @media only screen and (max-width: 479px)  {
     h2{font-size: 24px;}
@@ -209,4 +222,10 @@
     #footer .foot_bot .copyright{text-align: center;padding-top: 10px;max-width: 220px;}
     #footer .foot_bot .payment{justify-content: space-between;width: 100%;}
     #footer .foot_bot .payment li{margin-left: 0;}
+
+    /* contact page */
+    .contact-section .contact_left{margin-top: 20px;}
+    .contact-section .contact_left .page_title h3{font-size: 70px;}
+    .contact-section .contact_left .contact_form{max-width: 100%;}
+    .contact-section .contact_right{margin-top: 0;}
 }

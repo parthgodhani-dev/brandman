@@ -716,3 +716,54 @@ body{font-family: 'Open Sans', sans-serif;background-color: $primary;}
         }
     }
 }
+
+
+// Pages scss
+
+.contact-section{float: left;display: block;width: 100%;
+    .title_heading{display: block;width: 100%;text-align: center;
+        &.page_heading{margin-top: 40px;
+            h2{margin-bottom: 15px;text-transform: uppercase;letter-spacing: 2px;}
+        }
+    }
+    .contact_left{float: left;width: 80%;margin-top: 30px;border-right: 1px solid $tertiary;
+        .page_title{display: block;width: 100%;
+            span{@include normaltext;display: block;}
+            h3{font-size: 100px;margin-bottom: 20px;}
+        }
+        .contact_form{display: block;width: 100%;max-width: 52%;margin: 40px auto 0;
+            .form_discription{display: block;width: 100%;
+                p{@include normaltext;display: block;margin-bottom: 10px;padding: 10px;line-height: 20px;}
+                form{display: block;width: 100%;padding-top: 10px;
+                    .field{float: left;width: 100%;padding: 10px;
+                        input,label,textarea,select,input,option{display: block;width: 100%;height: auto;margin: 0;padding: 10px;font-size: 14px;font-weight: 400;line-height: normal;border: 2px solid $tertiary;border-radius: 3px;background-color: transparent;color: $fontgrey;-moz-appearance:none;-webkit-appearance:none;appearance:none;outline: none;}
+                        &.submit{text-align: center;
+                            .button{display: block;
+                                &:hover{background-color: $font;color: $primary;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact_right{float: right;width: 20%;margin-top: 30px;padding-left: 30px;
+        .cont_right_in{display: block;width: 100%;
+            .cont_box{padding: 20px 0;
+                h5{padding: 20px 0;text-transform: uppercase;}
+                .time,.address_in{display: block;
+                    p{font-size: 16px;font-weight: 600;line-height: 26px;color: $fontgrey;}
+                }
+                &.support{display: block;
+                    .phone,.email{display: block;width: 100%;padding-bottom: 10px;
+                        span{font-size: 16px;font-weight: 600;line-height: 20px;color: $fontgrey;margin-right: 10px;}
+                        a{font-size: 16px;font-weight: 600;color: $fontgrey;
+                            &:hover{color: $hover;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact_bottem{float: left;width: 100%;padding: 40px 0;}
+}
