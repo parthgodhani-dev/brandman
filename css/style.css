@@ -3549,4 +3549,186 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.contact-section {
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+.contact-section .title_heading {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-section .title_heading.page_heading {
+  margin-top: 40px;
+}
+
+.contact-section .title_heading.page_heading h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-section .contact_left {
+  float: left;
+  width: 80%;
+  margin-top: 30px;
+  border-right: 1px solid #333333;
+}
+
+.contact-section .contact_left .page_title {
+  display: block;
+  width: 100%;
+}
+
+.contact-section .contact_left .page_title span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #EEEEEE;
+  letter-spacing: .5px;
+  display: block;
+}
+
+.contact-section .contact_left .page_title h3 {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.contact-section .contact_left .contact_form {
+  display: block;
+  width: 100%;
+  max-width: 52%;
+  margin: 40px auto 0;
+}
+
+.contact-section .contact_left .contact_form .form_discription {
+  display: block;
+  width: 100%;
+}
+
+.contact-section .contact_left .contact_form .form_discription p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #EEEEEE;
+  letter-spacing: .5px;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height: 20px;
+}
+
+.contact-section .contact_left .contact_form .form_discription form {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.contact-section .contact_left .contact_form .form_discription form .field {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+.contact-section .contact_left .contact_form .form_discription form .field input, .contact-section .contact_left .contact_form .form_discription form .field label, .contact-section .contact_left .contact_form .form_discription form .field textarea, .contact-section .contact_left .contact_form .form_discription form .field select, .contact-section .contact_left .contact_form .form_discription form .field input, .contact-section .contact_left .contact_form .form_discription form .field option {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  border: 2px solid #333333;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #7a7a7a;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.contact-section .contact_left .contact_form .form_discription form .field.submit {
+  text-align: center;
+}
+
+.contact-section .contact_left .contact_form .form_discription form .field.submit .button {
+  display: block;
+}
+
+.contact-section .contact_left .contact_form .form_discription form .field.submit .button:hover {
+  background-color: #EEEEEE;
+  color: #000000;
+}
+
+.contact-section .contact_right {
+  float: right;
+  width: 20%;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.contact-section .contact_right .cont_right_in {
+  display: block;
+  width: 100%;
+}
+
+.contact-section .contact_right .cont_right_in .cont_box {
+  padding: 20px 0;
+}
+
+.contact-section .contact_right .cont_right_in .cont_box h5 {
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.contact-section .contact_right .cont_right_in .cont_box .time, .contact-section .contact_right .cont_right_in .cont_box .address_in {
+  display: block;
+}
+
+.contact-section .contact_right .cont_right_in .cont_box .time p, .contact-section .contact_right .cont_right_in .cont_box .address_in p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #7a7a7a;
+}
+
+.contact-section .contact_right .cont_right_in .cont_box.support {
+  display: block;
+}
+
+.contact-section .contact_right .cont_right_in .cont_box.support .phone, .contact-section .contact_right .cont_right_in .cont_box.support .email {
+  display: block;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.contact-section .contact_right .cont_right_in .cont_box.support .phone span, .contact-section .contact_right .cont_right_in .cont_box.support .email span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #7a7a7a;
+  margin-right: 10px;
+}
+
+.contact-section .contact_right .cont_right_in .cont_box.support .phone a, .contact-section .contact_right .cont_right_in .cont_box.support .email a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #7a7a7a;
+}
+
+.contact-section .contact_right .cont_right_in .cont_box.support .phone a:hover, .contact-section .contact_right .cont_right_in .cont_box.support .email a:hover {
+  color: #1ea69a;
+}
+
+.contact-section .contact_bottem {
+  float: left;
+  width: 100%;
+  padding: 40px 0;
+}
 /*# sourceMappingURL=style.css.map */
