@@ -315,6 +315,23 @@ $(window).on('load', function(){
 });
 
 
+$(window).on('load', function(){
+    $.instagramFeed({
+        'username': 'beard.n.ink',
+        'container': ".instagram_blog",
+        'display_profile': false,
+        'display_biography': false,
+        'display_gallery': true,
+        'get_raw_json': false,
+        'callback': null,
+        'styling': true,
+        'items': 12,
+        'items_per_row': 2,
+        'margin': 2
+    });
+});
+
+
 $(document).ready(function () {
     $(".part_inner").owlCarousel({
         items: 5,
