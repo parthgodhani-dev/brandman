@@ -3953,29 +3953,29 @@ body {
   margin-bottom: 20px;
 }
 
-.blog_inner {
+.blogpage_inner {
   float: left;
   display: block;
   width: 100%;
 }
 
-.blog_inner .title_heading {
+.blogpage_inner .title_heading {
   display: block;
   width: 100%;
   text-align: center;
 }
 
-.blog_inner .title_heading.page_heading {
+.blogpage_inner .title_heading.page_heading {
   margin-top: 40px;
 }
 
-.blog_inner .title_heading.page_heading h2 {
+.blogpage_inner .title_heading.page_heading h2 {
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-.blog_inner .blog {
+.blogpage_inner .blog {
   background-color: #111111;
   float: left;
   display: -webkit-box;
@@ -3984,42 +3984,42 @@ body {
   margin-top: 20px;
 }
 
-.blog_inner .blog .blog_img {
+.blogpage_inner .blog .blog_img {
   width: 40%;
 }
 
-.blog_inner .blog .blog_img img {
+.blogpage_inner .blog .blog_img img {
   max-width: 100%;
   height: auto;
 }
 
-.blog_inner .blog .blog_con {
+.blogpage_inner .blog .blog_con {
   width: 60%;
   padding: 20px;
 }
 
-.blog_inner .blog .blog_con h2 {
+.blogpage_inner .blog .blog_con h2 {
   margin-bottom: 10px;
 }
 
-.blog_inner .blog .blog_con .date {
+.blogpage_inner .blog .blog_con .date {
   font-size: 16px;
   color: #7a7a7a;
   margin-bottom: 20px;
 }
 
-.blog_inner .blog .blog_con .content_blog {
+.blogpage_inner .blog .blog_con .content_blog {
   display: block;
   width: 100%;
 }
 
-.blog_inner .blog .blog_con .content_blog p {
+.blogpage_inner .blog .blog_con .content_blog p {
   margin-bottom: 10px;
   text-align: justify;
   color: #7a7a7a;
 }
 
-.blog_inner .blog .blog_con .user {
+.blogpage_inner .blog .blog_con .user {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4033,7 +4033,7 @@ body {
   border-top: 1px solid #333333;
 }
 
-.blog_inner .blog .blog_con .user .imgnam {
+.blogpage_inner .blog .blog_con .user .imgnam {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4046,12 +4046,12 @@ body {
   width: auto;
 }
 
-.blog_inner .blog .blog_con .user .imgnam img {
+.blogpage_inner .blog .blog_con .user .imgnam img {
   max-width: 100%;
   height: auto;
 }
 
-.blog_inner .blog .blog_con .user .imgnam span {
+.blogpage_inner .blog .blog_con .user .imgnam span {
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -4060,7 +4060,7 @@ body {
   text-transform: uppercase;
 }
 
-.blog_inner .blog .blog_con .user .comnnet {
+.blogpage_inner .blog .blog_con .user .comnnet {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4073,55 +4073,55 @@ body {
   width: auto;
 }
 
-.blog_inner .blog .blog_con .user .comnnet .fas {
+.blogpage_inner .blog .blog_con .user .comnnet .fas {
   color: #333333;
   font-size: 20px;
   margin-right: 10px;
 }
 
-.blog_inner .blog .blog_con .user .comnnet span {
+.blogpage_inner .blog .blog_con .user .comnnet span {
   font-size: 12px;
   font-weight: 300;
   line-height: 1;
   color: #7a7a7a;
 }
 
-.blog_inner .replay_form {
+.blogpage_inner .replay_form {
   display: block;
   width: 100%;
   float: left;
   margin: 40px 0;
 }
 
-.blog_inner .replay_form .form_title {
+.blogpage_inner .replay_form .form_title {
   display: block;
   width: 100%;
   text-align: center;
 }
 
-.blog_inner .replay_form .form_title h3 {
+.blogpage_inner .replay_form .form_title h3 {
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-.blog_inner .replay_form form {
+.blogpage_inner .replay_form form {
   display: block;
   width: 100%;
   padding-top: 10px;
 }
 
-.blog_inner .replay_form form .field {
+.blogpage_inner .replay_form form .field {
   float: left;
   width: 100%;
   padding: 10px;
 }
 
-.blog_inner .replay_form form .field.half {
+.blogpage_inner .replay_form form .field.half {
   width: 50%;
 }
 
-.blog_inner .replay_form form .field input, .blog_inner .replay_form form .field label, .blog_inner .replay_form form .field textarea, .blog_inner .replay_form form .field select, .blog_inner .replay_form form .field input, .blog_inner .replay_form form .field option {
+.blogpage_inner .replay_form form .field input, .blogpage_inner .replay_form form .field label, .blogpage_inner .replay_form form .field textarea, .blogpage_inner .replay_form form .field select, .blogpage_inner .replay_form form .field input, .blogpage_inner .replay_form form .field option {
   display: block;
   width: 100%;
   height: auto;
@@ -4140,11 +4140,11 @@ body {
   outline: none;
 }
 
-.blog_inner .replay_form form .field.submit {
+.blogpage_inner .replay_form form .field.submit {
   text-align: center;
 }
 
-.blog_inner .replay_form form .field.submit .button:hover {
+.blogpage_inner .replay_form form .field.submit .button:hover {
   background-color: #EEEEEE;
   color: #000000;
 }
