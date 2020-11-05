@@ -4148,4 +4148,258 @@ body {
   background-color: #EEEEEE;
   color: #000000;
 }
+
+.about-section {
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+.about-section .title_heading {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.about-section .title_heading.page_heading {
+  margin-top: 40px;
+}
+
+.about-section .title_heading.page_heading h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-section .about_left {
+  float: left;
+  width: 60%;
+  margin-top: 30px;
+  border-right: 1px solid #333333;
+  padding-right: 20px;
+}
+
+.about-section .about_left .page_title {
+  display: block;
+  width: 100%;
+}
+
+.about-section .about_left .page_title span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #EEEEEE;
+  letter-spacing: .5px;
+  display: block;
+}
+
+.about-section .about_left .page_title h3 {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.about-section .about_left .aboutpage_cont {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner {
+  display: block;
+  width: 100%;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .left_side_abot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 40px;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .left_side_abot .img_box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 20px;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .left_side_abot .img_box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .left_side_abot .aboutcont_box {
+  display: block;
+  width: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .left_side_abot .aboutcont_box p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .right_side_abot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding-bottom: 40px;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .right_side_abot .img_box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 20px;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .right_side_abot .img_box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .right_side_abot .aboutcont_box {
+  display: block;
+  width: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .right_side_abot .aboutcont_box h3 {
+  margin-bottom: 10px;
+}
+
+.about-section .about_left .aboutpage_cont .about_inner .right_side_abot .aboutcont_box p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.about-section .about_right {
+  float: right;
+  width: 40%;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.about-section .about_right .about_rin {
+  text-align: center;
+}
+
+.about-section .about_right .about_rin h2 {
+  margin-bottom: 20px;
+}
+
+.about-section .about_right .about_rin .team_main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -5px;
+}
+
+.about-section .about_right .about_rin .team_main .team_box {
+  width: 50%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in {
+  border-radius: 10px;
+  border: 1px solid #333333;
+  padding: 10px;
+  background-color: #111111;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_img {
+  width: 100%;
+  display: block;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_cont {
+  padding: 20px 0 10px;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_cont h4 {
+  margin-bottom: 5px;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_cont span {
+  display: block;
+  font-size: 12px;
+  color: #333333;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_cont p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_cont .team_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px 0 0;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_cont .team_social li {
+  padding-top: 10px;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_cont .team_social li a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7a7a7a;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_cont .team_social li a .fab, .about-section .about_right .about_rin .team_main .team_box .team_in .team_cont .team_social li a .fas {
+  color: #EEEEEE;
+}
+
+.about-section .about_right .about_rin .team_main .team_box .team_in .team_cont .team_social li a .fab:hover, .about-section .about_right .about_rin .team_main .team_box .team_in .team_cont .team_social li a .fas:hover {
+  color: #1ea69a;
+}
 /*# sourceMappingURL=style.css.map */

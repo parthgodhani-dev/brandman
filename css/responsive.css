@@ -190,7 +190,7 @@
     .blog-section .blog_right{width: 100%;margin-top: 20px;padding-left: 0;}
 
     /* blog page */
-    .blogpage_inner .blog .blog_img{width: 100%;margin-bottom: 0;}
+    .blogpage_inner .blog .blog_img{width: 100%;margin-bottom: 0;text-align: center;}
     .blogpage_inner .replay_form form .field.half,.blogpage_inner .replay_form form .field{width: 100%;padding: 5px 0;}
     .blogpage_inner .replay_form form{padding-top: 0;}
 }
