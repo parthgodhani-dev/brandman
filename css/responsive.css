@@ -15,6 +15,9 @@
     .blog-section .blog_left .blog_list .blog .blog_con{padding: 20px;}
     .blog-section .blog_left .blog_list .blog .blog_con .content_blog p{font-size: 16px;}
     .blog_right h2{font-size: 26px;}
+
+    /* about page */
+    .about-section .about_left .page_title h3{font-size: 90px;}
 }   
 @media only screen and (max-width: 991px)  {
     h2{font-size: 26px;}
@@ -97,6 +100,18 @@
     .blogpage_inner .blog .blog_con{width: 100%;}
     .blogpage_inner .blog .blog_con h2,.blogpage_inner .blog .blog_con .date{text-align: center;}
     .blogpage_inner .replay_form{margin: 30px 0;}
+
+    /* about page */
+    .about-section .about_left{width: 70%;}
+    .about-section .about_left .page_title h3{font-size: 79px;}
+    .about-section .about_left .aboutpage_cont .about_inner .left_side_abot,.about-section .about_left .aboutpage_cont .about_inner .right_side_abot{flex-direction: column;}
+    .about-section .about_left .aboutpage_cont .about_inner .left_side_abot .img_box{margin-right: 0;margin-bottom: 20px;}
+    .about-section .about_left .aboutpage_cont .about_inner .right_side_abot .img_box{margin-left: 0;margin-bottom: 20px;}
+    .about-section .about_right{width: 30%;}
+    .about-section .about_right .about_rin .team_main .team_box{width: 100%;}
+    .about-section .about_right .about_rin .team_main .team_box .team_in .team_cont{padding: 10px 0 0px;}
+    .about-section .about_right .about_rin .team_main .team_box .team_in .team_cont .team_social{padding: 0;}
+
 }
 @media only screen and (max-width: 767px)  {
     .title_heading h2{font-size: 22px;}
@@ -193,6 +208,17 @@
     .blogpage_inner .blog .blog_img{width: 100%;margin-bottom: 0;text-align: center;}
     .blogpage_inner .replay_form form .field.half,.blogpage_inner .replay_form form .field{width: 100%;padding: 5px 0;}
     .blogpage_inner .replay_form form{padding-top: 0;}
+
+    /* about page */
+    .about-section .about_left{width: 100%;border-right: 0;padding-right: 0;}
+    .about-section .about_left .page_title h3{font-size: 80px;}   
+    .about-section .about_left .aboutpage_cont{margin-top: 0;}
+    .about-section .about_left .aboutpage_cont .about_inner .left_side_abot{padding-bottom: 20px;}
+    .about-section .about_left .aboutpage_cont .about_inner .right_side_abot{padding-bottom: 0px;}
+    .about-section .about_right{width: 100%;margin-top: 20px;padding-left: 0;}
+    .about-section .about_right .about_rin .team_main{margin: 0;}   
+    .about-section .about_right .about_rin .team_main .team_box{width: 33.33%;}
+
 }
 @media only screen and (max-width: 479px)  {
     h2{font-size: 24px;}
@@ -272,4 +298,7 @@
     .blogpage_inner .blog .blog_con .date,.blogpage_inner .blog .blog_con .content_blog p{font-size: 14px;}
     .blogpage_inner .blog .blog_con .user .imgnam span{font-size: 12px;}
 
+    /* about page */
+    .about-section .about_left .page_title h3{font-size: 70px;}
+    .about-section .about_right .about_rin .team_main .team_box{width: 50%;}
 }
